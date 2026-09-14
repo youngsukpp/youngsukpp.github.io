@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,94 +10,204 @@
 
 <body>
 
-<header>
-    <h1>Youngsuk Kim</h1>
-    <p>Ph.D. Student in Computer Science at Purdue University</p>
+<div class="container">
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+    <header>
+        <div class="profile">
 
-<main>
+            <div class="profile-image">
+                <img src="profile.jpg" alt="Youngsuk Kim">
+            </div>
 
-<section id="about">
-    <h2>About</h2>
-    <p>
-        I am a first-year Ph.D. student in Computer Science at
-        Purdue University, advised by Prof. Vamsi Addanki.
-    </p>
+            <div class="profile-info">
+                <h1>Youngsuk Kim</h1>
+                <p class="title">Systems Researcher</p>
+                <p>Purdue University</p>
+                <p>West Lafayette, IN</p>
 
-    <p>
-        My research interests lie in ML Systems, with a focus on
-        efficient deployment of large-scale AI models.
-    </p>
-</section>
+                <p>
+                    <a href="mailto:kim5689@purdue.edu">
+                        kim5689@purdue.edu
+                    </a>
+                </p>
 
-<section id="research">
-    <h2>Research</h2>
+                <div class="social-links">
+                    <a href="https://scholar.google.nl/citations?hl=nl&user=R8gh6jkAAAAJ&view_op=list_works" target="_blank">
+                        Google Scholar
+                    </a>
+                    <a href="https://github.com/youngsukpp" target="_blank">
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/youngsuk-kim-b7428a303/" target="_blank">
+                        LinkedIn
+                </div>
+            </div>
 
-    <ul>
-        <li>LLM Inference</li>
-        <li>Prefill-Decode Disaggregation</li>
-        <li>Inference Scheduling</li>
-        <li>ML Systems</li>
-    </ul>
-</section>
+        </div>
+    </header>
 
-<section id="publications">
-    <h2>Publications</h2>
 
-    <p>
-        <strong>ProactivePIM: Accelerating Weight-Sharing Embedding Layer
-        With PIM for Scalable Recommendation System</strong><br>
-        Youngsuk Kim, Junghwan Lim, Hyuk-Jae Lee, Chae Eun Rhee<br>
-        IEEE Access, 2025
-    </p>
-</section>
+    <section>
+        <h2>About</h2>
 
-<section id="education">
-    <h2>Education</h2>
+        <p>
+            I am a first-year Ph.D. student in Computer Science at
+            Purdue University, advised by Prof. Vamsi Addanki.
+        </p>
 
-    <p>
-        <strong>Purdue University</strong><br>
-        Ph.D. in Computer Science, 2026–
-    </p>
+        <p>
+            My research focuses on ML Systems. My research background
+            is in computer architecture and large-scale AI models.
+            My research interest is in ML systems, with a current focus
+            on Prefill-Decode (PD) disaggregation and inference scheduling.
+            I am particularly interested in the efficient deployment of
+            large-scale AI models in large-scale data centers, considering
+            both software and hardware aspects.
+        </p>
+    </section>
 
-    <p>
-        <strong>Seoul National University</strong><br>
-        M.S. in Electrical and Computer Engineering
-    </p>
 
-    <p>
-        <strong>KAIST</strong><br>
-        B.S. in Electrical Engineering
-    </p>
-</section>
+    <section>
+        <h2>Education</h2>
 
-<section id="contact">
-    <h2>Contact</h2>
+        <div class="item">
+            <h3>Purdue University</h3>
+            <p>Ph.D. in Computer Science, 2026–Present</p>
+            <p class="muted">Advised by Prof. Vamsi Addanki</p>
+        </div>
 
-    <p>
-        <a href="mailto:your-email@purdue.edu">your-email@purdue.edu</a>
-    </p>
+        <div class="item">
+            <h3>Seoul National University</h3>
+            <p>M.S. in Electrical and Computer Engineering, 2022–2024</p>
+            <p class="muted">Advised by Prof. Hyuk-Jae Lee</p>
+        </div>
 
-    <p>
-        <a href="#">Google Scholar</a> ·
-        <a href="#">GitHub</a> ·
-        <a href="#">CV</a>
-    </p>
-</section>
+        <div class="item">
+            <h3>KAIST</h3>
+            <p>B.S. in Electrical Engineering, 2014–2021</p>
+        </div>
+    </section>
 
-</main>
 
-<footer>
-    © 2026 Youngsuk Kim
-</footer>
+    <section>
+        <h2>Publications</h2>
+
+        <div class="publication">
+            <h3>
+                VERIFIER-FREE TEST-TIME SAMPLING FOR
+                VISION-LANGUAGE-ACTION MODELS
+            </h3>
+
+            <p>
+                Suhyeok Jang, Dongyoung Kim, Changyeon Kim,
+                Youngsuk Kim, Jinwoo Shin
+            </p>
+
+            <p class="muted">
+                arXiv, 2025
+            </p>
+
+            <a href="https://arxiv.org/pdf/2510.05681"
+               class="link"
+               target="_blank">
+                Paper →
+            </a>
+        </div>
+
+
+        <div class="publication">
+            <h3>
+                ProactivePIM: Accelerating Weight-Sharing Embedding Layer
+                With PIM for Scalable Recommendation System
+            </h3>
+
+            <p>
+                Youngsuk Kim, Junghwan Lim, Hyuk-Jae Lee, Chae Eun Rhee
+            </p>
+
+            <p class="muted">
+                IEEE Access, 2025
+            </p>
+
+            <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11316485"
+               class="link"
+               target="_blank">
+                Paper →
+            </a>
+        </div>
+
+    </section>
+
+
+    <section>
+        <h2>Industry Experience</h2>
+
+        <div class="item">
+            <h3>RLWRLD</h3>
+            <p>Research Intern, Aug 2025 – Jan 2026</p>
+        </div>
+
+
+        <div class="item">
+            <h3>SK Telecom</h3>
+            <p>Research Intern, Mar 2019 – Jul 2019</p>
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Teaching Experience</h2>
+
+        <div class="item">
+            <h3>Teaching Assistant</h3>
+            <p>CS 422 Computer Networks, Fall 2026–Present</p>
+            <p class="muted">
+                Currently assisting lectures and mentoring students.
+            </p>
+        </div>
+
+        <div class="item">
+            <h3>Project Mentor</h3>
+            <p>
+                Graduation Project for Undergraduate Students,
+                Spring & Fall 2023
+            </p>
+        </div>
+
+        <div class="item">
+            <h3>Teaching Assistant</h3>
+            <p>
+                400.018 Creative Engineering Design,
+                Fall 2022–2023
+            </p>
+        </div>
+    </section>
+
+
+    <section>
+        <h2>Honors & Awards</h2>
+
+        <div class="item">
+            <h3>Best TA Award</h3>
+            <p>Seoul National University, Mar 2023</p>
+        </div>
+
+        <div class="item">
+            <h3>Cum Laude</h3>
+            <p>KAIST, Aug 2021</p>
+            <p class="muted">
+                B.S. in Electrical Engineering
+            </p>
+        </div>
+    </section>
+
+
+    <footer>
+        © 2026 Youngsuk Kim
+    </footer>
+
+</div>
 
 </body>
 </html>
+```
