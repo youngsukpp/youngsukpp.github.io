@@ -8,8 +8,8 @@ html {
 
 body {
     margin: 0;
-    background: #f4f3ef;
-    color: #30343b;
+    background: #171b22;
+    color: #c9d1d9;
     font-family:
         -apple-system,
         BlinkMacSystemFont,
@@ -25,14 +25,14 @@ body {
 .container {
     width: min(850px, calc(100% - 48px));
     margin: 0 auto;
-    padding: 58px 0 55px;
+    padding: 60px 0 55px;
 }
 
 
 /* Profile */
 
 header {
-    margin-bottom: 38px;
+    margin-bottom: 42px;
 }
 
 .profile {
@@ -61,8 +61,8 @@ header {
 }
 
 .profile-info h1 {
-    margin: 0 0 2px;
-    color: #1f2933;
+    margin: 0 0 3px;
+    color: #f0f3f6;
     font-size: 35px;
     font-weight: 650;
     letter-spacing: -0.8px;
@@ -71,22 +71,22 @@ header {
 
 .profile-info p {
     margin: 2px 0;
-    color: #69727d;
+    color: #9da7b3;
 }
 
 .profile-info .title {
-    color: #486581;
+    color: #b7c4d2;
     font-size: 18px;
     margin-bottom: 7px;
 }
 
 .profile-info a {
-    color: #486581;
+    color: #8fb3d1;
     text-decoration: none;
 }
 
 .profile-info a:hover {
-    color: #334e68;
+    color: #b5d2e8;
     text-decoration: underline;
 }
 
@@ -101,13 +101,13 @@ header {
 }
 
 .social-links a {
-    color: #486581;
+    color: #8fb3d1;
     font-size: 15px;
     text-decoration: none;
 }
 
 .social-links a:hover {
-    color: #334e68;
+    color: #b5d2e8;
     text-decoration: underline;
 }
 
@@ -115,15 +115,15 @@ header {
 /* Sections */
 
 section {
-    margin-bottom: 42px;
+    margin-bottom: 43px;
 }
 
 h2 {
-    margin: 0 0 16px;
-    padding-bottom: 7px;
-    border-bottom: 1px solid #d9d9d4;
+    margin: 0 0 17px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #303844;
 
-    color: #263746;
+    color: #e3e8ed;
     font-size: 21px;
     font-weight: 650;
     letter-spacing: -0.2px;
@@ -131,7 +131,7 @@ h2 {
 
 h3 {
     margin: 0 0 3px;
-    color: #354452;
+    color: #d7dee6;
     font-size: 17px;
     font-weight: 600;
 }
@@ -141,7 +141,7 @@ p {
 }
 
 .muted {
-    color: #737b84;
+    color: #858f9b;
     font-size: 15px;
 }
 
@@ -172,7 +172,7 @@ p {
 }
 
 .publication h3 {
-    color: #354452;
+    color: #d5dee7;
     line-height: 1.5;
 }
 
@@ -183,13 +183,13 @@ p {
 .link {
     display: inline-block;
     margin-top: 2px;
-    color: #486581;
+    color: #8fb3d1;
     font-size: 15px;
     text-decoration: none;
 }
 
 .link:hover {
-    color: #334e68;
+    color: #b5d2e8;
     text-decoration: underline;
 }
 
@@ -206,7 +206,7 @@ p {
 
 .project p {
     max-width: 720px;
-    color: #555e68;
+    color: #a5afb9;
 }
 
 
@@ -219,12 +219,12 @@ p {
 }
 
 .links a {
-    color: #486581;
+    color: #8fb3d1;
     text-decoration: none;
 }
 
 .links a:hover {
-    color: #334e68;
+    color: #b5d2e8;
     text-decoration: underline;
 }
 
@@ -234,8 +234,8 @@ p {
 footer {
     margin-top: 65px;
     padding-top: 18px;
-    border-top: 1px solid #d9d9d4;
-    color: #858b91;
+    border-top: 1px solid #303844;
+    color: #737d88;
     font-size: 14px;
 }
 
