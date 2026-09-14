@@ -8,8 +8,8 @@ html {
 
 body {
     margin: 0;
-    background: #ffffff;
-    color: #333333;
+    background: #eef1f5;
+    color: #46515f;
     font-family:
         -apple-system,
         BlinkMacSystemFont,
@@ -25,25 +25,30 @@ body {
 .container {
     width: min(900px, calc(100% - 48px));
     margin: 0 auto;
-    padding: 65px 0 50px;
+    padding: 60px 0 50px;
 }
 
 
 /* Profile */
 
 header {
-    margin-bottom: 65px;
+    margin-bottom: 28px;
 }
 
 .profile {
     display: flex;
     align-items: flex-start;
-    gap: 32px;
+    gap: 30px;
+    padding: 28px 30px;
+    background: #f9fafb;
+    border: 1px solid #d9dfe7;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(30, 45, 65, 0.05);
 }
 
 .profile-image {
-    width: 155px;
-    height: 155px;
+    width: 150px;
+    height: 150px;
     flex-shrink: 0;
 }
 
@@ -61,31 +66,31 @@ header {
 }
 
 .profile-info h1 {
-    margin: 0 0 4px;
-    color: #111111;
+    margin: 0 0 3px;
+    color: #243447;
     font-size: 34px;
-    font-weight: 600;
+    font-weight: 650;
     letter-spacing: -0.7px;
 }
 
 .profile-info p {
     margin: 2px 0;
-    color: #666666;
+    color: #6f7b88;
 }
 
 .profile-info .title {
-    color: #333333;
+    color: #43576b;
     font-size: 18px;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
 }
 
 .profile-info a {
-    color: #444444;
+    color: #526f8c;
     text-decoration: none;
 }
 
 .profile-info a:hover {
-    color: #000000;
+    color: #294d70;
     text-decoration: underline;
 }
 
@@ -95,18 +100,18 @@ header {
 .social-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 18px;
-    margin-top: 15px;
+    gap: 16px;
+    margin-top: 14px;
 }
 
 .social-links a {
-    color: #555555;
+    color: #526f8c;
     font-size: 15px;
     text-decoration: none;
 }
 
 .social-links a:hover {
-    color: #000000;
+    color: #294d70;
     text-decoration: underline;
 }
 
@@ -114,32 +119,38 @@ header {
 /* Sections */
 
 section {
-    margin-bottom: 55px;
+    margin-bottom: 40px;
+    padding: 27px 30px 30px;
+    background: #f9fafb;
+    border: 1px solid #d9dfe7;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(30, 45, 65, 0.035);
 }
 
 h2 {
     margin: 0 0 20px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid #e5e5e5;
-    color: #111111;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d5dce5;
+
+    color: #2c4054;
     font-size: 21px;
-    font-weight: 600;
+    font-weight: 650;
     letter-spacing: -0.2px;
 }
 
 h3 {
     margin: 0 0 4px;
-    color: #222222;
+    color: #3c5064;
     font-size: 17px;
     font-weight: 600;
 }
 
 p {
-    margin: 0 0 15px;
+    margin: 0 0 14px;
 }
 
 .muted {
-    color: #777777;
+    color: #7b8794;
     font-size: 15px;
 }
 
@@ -147,7 +158,11 @@ p {
 /* Items */
 
 .item {
-    margin-bottom: 25px;
+    margin-bottom: 24px;
+}
+
+.item:last-child {
+    margin-bottom: 0;
 }
 
 .item p {
@@ -158,10 +173,15 @@ p {
 /* Publications */
 
 .publication {
-    margin-bottom: 30px;
+    margin-bottom: 28px;
+}
+
+.publication:last-child {
+    margin-bottom: 0;
 }
 
 .publication h3 {
+    color: #3b5065;
     line-height: 1.5;
 }
 
@@ -170,13 +190,15 @@ p {
 }
 
 .link {
+    display: inline-block;
+    margin-top: 3px;
     font-size: 15px;
-    color: #444444;
+    color: #52799e;
     text-decoration: none;
 }
 
 .link:hover {
-    color: #000000;
+    color: #294f74;
     text-decoration: underline;
 }
 
@@ -184,12 +206,16 @@ p {
 /* Projects */
 
 .project {
-    margin-bottom: 28px;
+    margin-bottom: 26px;
+}
+
+.project:last-child {
+    margin-bottom: 0;
 }
 
 .project p {
     max-width: 750px;
-    color: #555555;
+    color: #5f6c79;
 }
 
 
@@ -198,16 +224,16 @@ p {
 .links {
     display: flex;
     flex-wrap: wrap;
-    gap: 22px;
+    gap: 20px;
 }
 
 .links a {
-    color: #444444;
+    color: #52799e;
     text-decoration: none;
 }
 
 .links a:hover {
-    color: #000000;
+    color: #294f74;
     text-decoration: underline;
 }
 
@@ -215,11 +241,12 @@ p {
 /* Footer */
 
 footer {
-    margin-top: 80px;
+    margin-top: 60px;
     padding-top: 20px;
-    border-top: 1px solid #e5e5e5;
-    color: #888888;
+    border-top: 1px solid #d5dce5;
+    color: #7e8996;
     font-size: 14px;
+    text-align: center;
 }
 
 
@@ -228,12 +255,14 @@ footer {
 @media (max-width: 600px) {
 
     .container {
-        width: calc(100% - 36px);
-        padding-top: 40px;
+        width: calc(100% - 28px);
+        padding-top: 28px;
     }
 
     .profile {
+        flex-direction: column;
         gap: 20px;
+        padding: 24px;
     }
 
     .profile-image {
@@ -254,7 +283,8 @@ footer {
     }
 
     section {
-        margin-bottom: 45px;
+        margin-bottom: 28px;
+        padding: 23px 24px 26px;
     }
 
     h2 {
